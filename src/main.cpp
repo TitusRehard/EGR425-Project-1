@@ -2,6 +2,8 @@
 #include <ArduinoJson.h>
 #include <HTTPClient.h>
 #include "EGR425_Phase1_weather_bitmap_images.h"
+#include "secrets.h"
+
 #include "WiFi.h"
 
 ////////////////////////////////////////////////////////////////////
@@ -9,7 +11,7 @@
 ////////////////////////////////////////////////////////////////////
 // TODO 3: Register for openweather account and get API key
 String urlOpenWeather = "https://api.openweathermap.org/data/2.5/weather?";
-String apiKey = "YOUR_API_KEY";
+String apiKey = "API_KEY";
 
 // TODO 1: WiFi variables
 String wifiNetworkName = "CBU";
